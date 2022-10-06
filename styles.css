@@ -1,0 +1,169 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0 auto;
+}
+
+
+body {
+    width: 1310px;
+    height: 2260px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    background-color: black;
+}
+
+img #TK {
+    float:left;
+    margin: 16px;
+    display:inline;
+    
+}
+
+#About{
+    background-color: #FFF;
+
+}
+
+h1 {
+    font-size: 40px;
+    color:#007D7B;
+    text-align: left;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 1px;
+}
+
+p{
+    font-size: 16px;
+}
+
+nav{
+    text-align: right;
+}
+
+h2{
+    visibility: hidden;
+    font-size: 0px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    text-align: right;
+    margin: 5px;
+    padding: 50px;
+    width: 40px;
+    right:10px;
+}
+
+li a{
+    text-decoration: none;
+    color:#FFF;
+    font-size:20px;
+
+}
+
+nav a:hover {
+    color:#007D7B;
+}
+
+figure{
+    display:inline;
+    float: left;
+    margin: 0px;
+}
+
+
+figcaption{
+    position: absolute;
+    font-size: 16px;
+}
+
+figcaption .white{ /*make classes for fig captions and design them from there*/
+    color: #FFF;
+}
+
+#Gallery{
+    text-align: left;
+    font-size: 20px;
+    padding: 16px;
+}
+
+#Gallery, #About{
+    color:black;
+}
+
+footer{
+    color:#FFF;
+    background-color: black;
+    text-align: center;
+}
+
+label #sub{
+    background-color: #007D7B;
+    text-align: center;
+    font-size: 16px;
+    width: 250px;
+    margin-left: 160px;
+    margin-top: 5px;
+    color: #FFF; 
+    border-radius: 5px; 
+}
+
+form{
+    color: #FFF;
+    display: block;
+    padding: 10px;
+    width: 20px;
+    margin: 0 auto;
+    margin-right: 900px;
+    margin-top: 10px;
+}
+
+label{
+    font-size: 16px;
+
+}
+
+input{
+    width: 600px;
+    padding: 4px;
+}
+
+
+::placeholder {
+    color: #007D7B;
+    font-size: 16px;
+}
+
+#Contact {
+    color:#FFF;
+    text-align: center;
+}
+
+[href="#top"]{
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius: 1px 1px 0px 0px;
+    padding: 25px;
+    height: 15px;
+    width:25px;
+    background-color: #007D7B;
+}
+
+#top, a:hover{
+    color: #007D7B;
+    background-color: #FFF;
+}
+
+footer{
+    color: #FFF;
+    font-size: 16px;
+}
